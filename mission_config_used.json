@@ -1,0 +1,58 @@
+{
+  "map": {
+    "width": 10,
+    "height": 4
+  },
+  "start": [
+    1,
+    2
+  ],
+  "charger": [
+    2,
+    3
+  ],
+  "eve_hidden": [
+    6,
+    3
+  ],
+  "obstacles": [
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      2
+    ]
+  ],
+  "signal": {
+    "direction": "N",
+    "strength": 0.5,
+    "timestamp": "10"
+  },
+  "resources": {
+    "battery": 25,
+    "time": 100
+  },
+  "costs": {
+    "move": 1,
+    "scan": 2,
+    "recharge_time": 3
+  },
+  "clues": [
+    {
+      "position": [
+        5,
+        1
+      ],
+      "name": "hello",
+      "hint": "Eve may not be nearby",
+      "target_region": [
+        5,
+        2,
+        9,
+        3
+      ]
+    }
+  ]
+}
